@@ -64,8 +64,20 @@ pipeline(source, gzip, destination, (err) => {
   if (err) {
     console.error('An error occurred:', err);
     process.exitCode = 1;
+	return console.log(err);
   }
 
   var c_array = converter.toString(fs.readFileSync('./min/all.htm.gz'), 16);
-  fs.writeFileSync('setup_htm.h', c_array, 'utf8');
+  fs.writeFileSync('setup_htm.h', c_array, 'utf8');  
 })
+
+// Copy generated code to src folder
+var exec = require('child_process').exec;
+exec('cp setup_htm.h ../../../src/',
+    function (error, stdout, stderr) {
+        console.log('stdout: ' + stdout);
+        console.log('stderr: ' + stderr);
+        if (error !== null) {
+             console.log('exec error: ' + error);
+        }
+    });
