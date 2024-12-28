@@ -36,3 +36,4 @@
 .vscode/
 *.lnk
 *.bak
+node_modules

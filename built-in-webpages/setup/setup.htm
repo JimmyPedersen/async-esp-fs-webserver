@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset=utf-8>
-    <title>ESP FS Web Server</title>
+    <title>Air power - Configuration</title>
     <meta content="width=device-width, initial-scale=1" name=viewport>
     <link href=style.css rel=stylesheet type=text/css>
 </head>
@@ -12,7 +12,7 @@
             <div class=title>
                 <div id=img-logo title='Click to upload your logo file'></div>
                 <div class=heading>
-                  <h1 id=name-logo>ESP FS Web Server</h1>
+                  <h1 id=name-logo>Air power</h1>
                   <span id=esp-ip></span><br>
                   <span id=esp-mode></span> - v<span id=firmware></span>
                 </div>
@@ -105,7 +105,7 @@
         </div>
 
         <div id="update-box" class="ctn opt-box hide">
-          <h2 class="heading-2">Update ESP Firmware</h2>
+          <h2 class="heading-2">Update firmware</h2>
           <div class=tf-wrapper>
             <form id=update-form class=form action="/update" method="post" enctype="multipart/form-data">
               <div class=firmware>
@@ -125,7 +125,7 @@
             </form>
           </div>
           
-          <h2 class="heading-2">Load file to ESP FileSystem</h2>
+          <h2 class="heading-2">Load file to fileSystem</h2>
           <div class=tf-wrapper>
             <form class=form action="/edit" method="post" enctype="multipart/form-data">
               <ul id="listing"></ul>
@@ -139,7 +139,7 @@
         <div id=btn-box class="btn-bar hide">
             <a id=restart class="btn">
                 <div class=svg><svg id=svg-restart fill=currentColor viewBox="0 0 24 24"></svg></div>
-                <span>Restart ESP</span>
+                <span>Restart unit</span>
             </a>
             <a id=save-params class="btn">
                 <div class=svg><svg id=svg-save fill=currentColor viewBox="0 0 24 24"></svg></div>
