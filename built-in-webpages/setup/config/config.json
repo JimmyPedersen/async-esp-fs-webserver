@@ -1,0 +1,22 @@
+{
+  "wifi-box": "",
+  "name-logo": "Air power",
+  "dhcp": false,
+  "param-box1": "Ethernet Setup",
+  "Manual configuration (no DHCP)": false,
+  "ETH IP Address": "192.168.0.64",
+  "ETH Gateway": "192.168.0.1",
+  "ETH Netmask": "255.255.255.0",
+  "ETH DNS 1": "1.1.1.1",
+  "ETH DNS 2": "8.8.8.8",
+  "param-box8": "Network settings",
+  "Hostname": "BPC_Air",
+  "Time zone": "CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00",
+  "param-box11": "Configuration",
+  "Use Celsius": true,
+  "param-box13": "Logins",
+  "WEB Username": "admin",
+  "WEB Password": "admin",
+  "FTP Username": "admin",
+  "FTP Password": "admin"
+}
