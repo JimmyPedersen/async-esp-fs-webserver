@@ -142,7 +142,7 @@ h1{font-size:24px;}
 .topnav.resp a{float:none;display:block;text-align:left;}
 .hide-tiny{display:none;}
 .toggle-label {margin: 0 5px 0 5px;}
-.show-hide-wrap {right: 4%;}
+.show-hide-wrap {right: 10%;}
 }
 @media screen and (max-width: 479px){
 body{padding:2px;background-color: #ffffff;}
