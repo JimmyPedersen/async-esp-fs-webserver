@@ -132,12 +132,12 @@ select {width:93.5%}
 @media screen and (max-width: 608px){
 h1{font-size:24px;}
 .btn-bar{margin-top:20px;flex-direction:column;}
-.topnav {margin-bottom: 5px; width: 55%}
+.topnav {margin-bottom: 5px; width: 70%}
 .topnav a{padding:5px 20px;}
 .topnav a:not(.active){display:none;}
 .topnav a.icon{float:right;display:block;}
-.topnav.responsive .icon{position:absolute;right:0;top:0;}
-.topnav.responsive a{float:none;display:block;text-align:left;}
+.topnav.resp .icon{position:absolute;right:0;top:0;}
+.topnav.resp a{float:none;display:block;text-align:left;}
 .hide-tiny{display:none;}
 .toggle-label {margin: 0 5px 0 5px;}
 .show-hide-wrap {right: 4%;}
